@@ -4,4 +4,6 @@
 <div class="image">
   <img src="{{Vite::asset('Resources/img/jumbotron.jpg')}}" alt="">
 </div>
+
+@include('/partials/moviehome')
 @endsection

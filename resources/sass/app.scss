@@ -7,12 +7,17 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 //HEADER
 ul {
   display: flex;
   align-content: center;
   height: 100%;
   margin-bottom: 0px;
+  flex-wrap: wrap;
 }
 
 ul li{
@@ -23,6 +28,7 @@ ul li{
   font-weight: bold;
 }
 
+//JUMBOTRON
 .image{
   width: 100%; 
   height: 300px; 
@@ -34,4 +40,22 @@ ul li{
     object-fit: cover;
     object-position: top center; 
   }
+}
+
+//FUMETTI
+.div-image {
+  width:200px;
+  height:200px;
+  overflow: hidden;
+  
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+}
+
+.title-movie{
+  font-size: small;
 }
