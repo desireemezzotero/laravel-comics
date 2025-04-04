@@ -3,9 +3,9 @@
 @endphp
 
 <div class="bg-black">
-  <div class="container">
+  <div class="container pb-4">
+
     <div class="row pt-5">
-   
       @foreach ($movies as $movie) 
         <div class="col-xl-2 col-md-3 col-sm-4 col-4 mb-2">
           <div class="div-image">
@@ -13,8 +13,10 @@
           </div>
           <p class="text-white title-movie pt-2">{{strtoupper($movie['title'])}}</p>
         </div>
-      @endforeach
-      
+      @endforeach    
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn btn-more btn-lg btn-primary text-center">LOAD MORE</button>
     </div>
   </div>
 </div>

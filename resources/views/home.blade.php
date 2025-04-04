@@ -6,4 +6,5 @@
 </div>
 
 @include('/partials/moviehome')
+@include('/partials/icon')
 @endsection
