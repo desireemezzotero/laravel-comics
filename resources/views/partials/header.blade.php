@@ -4,18 +4,17 @@
       <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="" style="height: 60px">
     </div>
 
-     @php
-        $navs = config("headerNav")
-     @endphp
+    @php
+        $navs = config("headerNav"); 
+    @endphp
 
     <div class="d-flex">
       <ul>
         @foreach ($navs as $nav)
-         <li>{{$nav}}</li>
+            <li><a href="{{$nav}}">{{ strtoupper($nav) }}</a></li>
         @endforeach
       </ul>
     </div>
 
   </div>
-
 </header>
