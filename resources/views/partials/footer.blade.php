@@ -1,7 +1,6 @@
 <footer>
- <div class="container">
+ <div class="container d-flex">
   <div class="row w-50 pt-5">
-
     <div class="col-4">
 
       <div>
@@ -179,5 +178,9 @@
       </div> {{-- sites --}}
     </div> {{-- col terza --}}
   </div> {{-- div row --}}
+
+  <div class="div-image-footer w-50 d-flex justify-content-end position-relative">
+   <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
+  </div>
  </div>
 </footer>
