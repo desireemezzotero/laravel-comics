@@ -182,5 +182,36 @@
   <div class="div-image-footer w-50 d-flex justify-content-end position-relative">
    <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
   </div>
+ </div> {{-- container --}}
+
+ <div class="icon-footer">
+  <div class="container d-flex justify-content-between align-items-center h-100 bottom-div">
+    <div>
+      <button type="button" class="btn btn-sign" data-bs-toggle="button" aria-pressed="true">SIGN-UP NOW!</button>
+    </div>
+
+    <div class="d-flex align-items-center h-100">
+      <p class="text-primary mb-0 fs-5">FOLLOW US</p>
+      <a href="#">
+        <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+      </a>
+
+      <a href="#">
+        <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+      </a>
+
+      <a href="#">
+        <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+      </a>
+
+      <a href="#">
+        <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+      </a>
+
+      <a href="#">
+        <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
+      </a>
+    </div>
+  </div>
  </div>
 </footer>
